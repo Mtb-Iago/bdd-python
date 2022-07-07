@@ -112,11 +112,3 @@ def liberar_entrada_zion(dados):
     print('[HABILIDADES ENCONTRADAS]', dados['habilidades'])
     print('[CÓDIGO DE ACESSO]', random.randint(1, 100))
     return True
-
-
-
-
-# if __name__ == "__main__":
-#     env = simpy.Environment()
-#     env.process(verificar_permissao_zion(env))
-#     env.run(until=10000)
